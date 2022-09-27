@@ -1,0 +1,19 @@
+body{
+    border: 0ch;
+    padding: 0%;
+    margin: 0%;
+}
+
+#id1{
+    max-width: 100%;
+    height: auto;
+   
+    
+}
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
