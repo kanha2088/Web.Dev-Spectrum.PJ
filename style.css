@@ -1,19 +1,35 @@
-body{
-    border: 0ch;
-    padding: 0%;
-    margin: 0%;
+*
+{
+    margin: 0;
+    padding: 0;
+
 }
 
-#id1{
-    max-width: 100%;
-    height: auto;
-   
-    
+header
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/front.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
 }
-.topleft {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-  }
+
+.cake
+{
+    margin-top: 1vmin;
+    margin-left: 1vmin;
+    font-size: 4vmin;
+    color: aliceblue;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+#in
+{
+    color: #e7a5db;
+}
+
   
