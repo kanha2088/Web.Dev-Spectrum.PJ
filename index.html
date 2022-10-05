@@ -5,17 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Spec</title>
-    <link rel="stylesheet" href="./style.css" />
+   <style>
+    *{
+      font-style: serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      color: white;
+    }
+   a{
+    text-decoration: none;
+    
+    font-weight: bold;
+   }
+   
+   li{
+    list-style: none;
+    
+    
+   }
+   body{
+       background-image: url('final.jpg');
+        font-family: serif;
+        background-position: right top; 
+       background-size: 55%;
+       
+       background-attachment: fixed;
+       
+       
+        background-repeat:no-repeat ;
+        background-color: black;
+       }
+   
+   .navbar{
+    margin-right: 0px;
+
+    /* overflow: hidden;*/
+   } 
+   .menu{
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+   
+   }
+   li:hover{
+ 
+    transition: 0.5s linear;
+    padding-bottom: 0px;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-top: 5px;
+    transition: 0.3s linear;
+
+   }
+   .contact:hover{
+    background-color: rgb(244, 69, 5);
+   }
+   .cake{
+    position: relative;
+    padding-left: 30px;
+    top: 40px;
+    left: 30px ;
+    font-size: 26px;
+   }
+   .sweet{
+    position: relative;
+    top: 70px;
+    left: 100px;
+  
+   }
+   .sweet h1{
+    font-size: 90px;
+   }
+   .pe{
+    font-size: 26px;
+    color: rgb(89, 86, 86);
+
+   }
+   .p{
+    font-size: 22px;
+    color: rgb(89, 86, 86);
+   }
+   
+   .contact{
+    position: relative;
+   left: 89%;
+ border: 1px solid orangered;
+ padding:8px 20px 8px 20px ;
+ background-color: hwb(17 19% 0%);
+   margin: 0px;
+   top:-15px;
+   }
+   .in{
+    color: rgb(255, 124, 77);
+   }
+   .play{
+    font-size: 13px;
+    
+   }
+   .store{
+    font-size: 24px;
+    
+   }
+   .app{
+    font-size: 10px;
+   }
+   .str{
+    font-size: 24px;
+   }
+   .g{
+    border: 1px solid white;
+    width: fit-content;
+    padding:10px 15px 10px 45px;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-radius: 10px;
+    
+    
+   }
+   .a{
+    border: 1px solid white;
+    width: fit-content;
+    padding:10px 15px 10px 45px;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-radius: 10px;
+   }
+   .c{
+    display: flex;
+   }
+   
+  </style>
 </head>
 <body>
-    <header>
-    <div class="container">
-        <div class="cake">
-            <span id="ck">CAKE</span><span id="in">IN</span>
+ 
+  <header class="img">
+  <span class="cake">CAKE<span class="in">IN</span></span>
+        <nav class="navbar">
+          <!-- LOGO -->
+          
+ 
+          <!-- NAVIGATION MENU -->
+          <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+           
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="/">Product</a></li>
+              <li class="services">
+                <a href="/">Gallery</a>
+                <!-- DROPDOWN MENU -->
+               
+               
+              </li>
+            
+             
+            </div>
+            
+          </ul>
+     </nav>
+       
+        <a class="contact" href="/">Contact Us</a>
+         <span class="sweet">
+         <h1>Sweet chocolate <br>
+          low fat </h1> <br><br>
+          <p class="pe">Chocolate  cake  with  vanilla  </p> 
+        <p class="p">topped with thicked chocolate and
+             <br>decorated with berries</p> 
+      <div class="c">
+        <div class="g">    
+          <p class="play">GET IT ON</p>
+          <p class="store">Google Play</p>
+        </div>
+        <div class="a">
+          <p class="apple">Available on the </p>
+          <p class="str">App Store</p> 
         </div>
       </div>
-    </header>
- 
-    
+        </header>
 </body>
 </html> 
