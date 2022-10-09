@@ -1,10 +1,10 @@
-*{
+* {
     font-family: 'Red Hat Display', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     color: white;
-  }
+}
 
 a {
     text-decoration: none;
@@ -19,8 +19,8 @@ header {
     background-image: url('./images/sdf.jpg');
     font-family: serif;
     background-position: right top;
-    background-size: 55%;
-    background-attachment: fixed;
+    background-size: 100%;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: black;
     height: 61vw;
@@ -30,8 +30,8 @@ header {
     margin-right: 0px;
     position: relative;
     top: 5vh;
-    font-size: 3vh;
-    
+    font-size: 3vw;
+
 
     /* overflow: hidden;*/
 }
@@ -43,8 +43,7 @@ header {
 
 }
 
-li :hover
-{
+li :hover {
 
     transition: 0.5s linear;
     padding-bottom: 0px;
@@ -59,9 +58,9 @@ li :hover
 .cake {
     position: absolute;
     padding-left: 2vw;
-    top: 3vh;
+    top: 3vw;
     left: 2vw;
-    font-size: 3vmax;
+    font-size: 3vw;
     color: aliceblue;
 }
 
@@ -71,8 +70,8 @@ li :hover
 
 
 .sweet {
-    position: relative;
-    top: 5vh;
+    position: absolute;
+    top: 14vw;
     left: 7vw;
 
 }
@@ -93,6 +92,8 @@ li :hover
 }
 
 .contact {
+
+    font-size: 2vw;
     position: absolute;
     right: 1vh;
     top: 1vw;
@@ -102,111 +103,406 @@ li :hover
     margin: 0px;
 }
 
-.pl
-{
+.pl {
     display: flex;
     align-content: center;
     justify-content: center;
+
+    height: 25vw;
 }
-.g
-{
-    position: absolute;
-    top: 26vw;
-    
-    left: -1vh;
-}
-.app
-{
-    position: absolute;
-    top: 27vw;
-    left: 25vh;
-}
-
-.app img{
-    width: 6em;
-}
-
-.g img
-{
-    width: 8em;
-}
-
-
-
-
-/* 
 
 .g {
-    position: relative;
-    height: 1vh;
-    width: 1vw;
-
-}
-
-.store {
-    font-size: 24px;
-
+    position: absolute;
+    top: 31vw;
+    left: -1vw;
 }
 
 .app {
-    font-size: 10px;
+    position: absolute;
+    top: 32vw;
+    left: 18vw;
 }
 
-.str {
-    font-size: 24px;
+.app img {
+    width: 13vw;
 }
 
-.g {
-    border: 1px solid white;
-    width: fit-content;
-    padding: 10px 15px 10px 45px;
-    margin-top: 45px;
-    margin-left: 45px;
-    border-radius: 10px;
+.g img {
+    width: 17vw;
+}
 
+
+
+.middle {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
 
 }
 
-.a {
-    border: 1px solid white;
-    width: fit-content;
-    padding: 10px 15px 10px 45px;
-    margin-top: 45px;
-    margin-left: 45px;
-    border-radius: 10px;
-}
 
-.c {
+.sec {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    position: relative;
+    top: 4vw;
+    height: 35vw;
 }
 
- */
+.discover {
 
-/* 
- a:nth-child(1)
-{
+    font-size: 4.3vw;
+    color: black;
+    top: 3vw;
+    position: relative;
+}
+
+.taste {
+    position: relative;
+    font-size: 4vw;
+    color: black;
+    top: 4vw;
+
+}
+
+.rasp {
+    border: 1px solid;
+    padding: 15vh 3vh 15vh 3vh;
+    border-radius: 250px 250px 250px 250px;
+    color: black;
+}
+
+.red {
+    border: 1px solid;
+    padding: 15vh 3vh 15vh 3vh;
+    color: black;
+    border-radius: 250px 250px 250px 250px;
+}
+
+.choc {
+    border: 1px solid;
+    padding: 15vh 3vh 15vh 3vh;
+    border-radius: 250px 250px 250px 250px;
+    color: black;
+}
+
+.bery {
+    border: 1px solid;
+    padding: 15vh 3vh 15vh 3vh;
+    border-radius: 250px 250px 250px 250px;
+    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.recomdation {
+    width: 80vw;
+    height: 100vh;
+    /* text-align: center; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: black;
+
+    position: relative;
+
+
+}
+
+.recom {
+
+    position: relative;
+    /* top: 0px; */
+    /* left: 10%; */
+    /* width: 60%; */
+    /* padding-right: 0px; */
+    /* margin-right: 0px; */
+    /* padding-left: 35px; */
+    color: black;
+}
+
+.re {
+    position: relative;
+    /* margin-top: 10vh; */
+    /* font-size: 0.7em; */
+    color: black;
+    font-size: 6vw;
+    top: 3vw;
+
+    text-align: center;
+
+}
+
+.com {
+    position: relative;
+    /* left: 10vw; */
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+}
+
+.mini {
+    position: relative;
+    display: flex;
+    top: 4%;
+    margin-left: 0px;
+    color: black;
+
+
+
+}
+
+.crunchy {
+
+    padding: 30vh 20vh 30vh 20vh;
+    height: 50vh;
     width: auto;
-} 
-nav .home,a:nth-child(1):hover~.anm
-{
-    width: auto;
+    margin-top: 4%;
+    margin-left: 0px;
+    border-radius: 250px 250px 250px 250px;
+    background-image: url('./images/slashio-photography-XxWxPGXwDU0-unsplash.jpg');
+    background-size: cover;
+    /* margin-left: 10vw; */
+    color: black;
+
+
+}
+
+.sugar {
+    position: relative;
+    /* left: 0px; */
+    margin-left: 3vw;
+    height: 40vh;
+    color: black;
+    margin-top: 5%;
+    /* border-radius: 250px 250px 250px 250px; */
+    font-size: 2vw;
+}
+
+.minicake {
+    position: relative;
+    left: 0px;
+    font-size: 3em;
+    padding-left: 0px;
+    color: black;
+
+}
+
+.top {
+    position: relative;
+    left: 0px;
+    padding: 3vh 0px 3vh 0px;
+    font-size: 1.5em;
+    color: black;
+
+}
+
+.rup {
+
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.buy {
+    margin-top: 20px;
+    border: 0.5px solid orangered;
+    background-color: rgb(255, 100, 43);
+    padding: 5px 12px 5px 12px;
 }
 
 
- a:nth-child(2)
-{
-    width: auto;
-}
-nav .product,a:nth-child(2):hover~.anm
-{
-    width: auto;
+.about {
+    position: relative;
+    top: cvw;
+    /* height: 100vh; */
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 9vw;
+    color: black;
 }
 
-a:nth-child(3)
-{
-    width: auto;
-}  
-nav .gallery,a:nth-child(3):hover~.anm
-{
-    width: auto;
-} */
+.abs {
+    /* display: flex; */
+    /* font-size: 2vw; */
+    justify-content: flex-start;
+}
+
+.aboutus {
+    font-size: 7vw;
+    color: black;
+}
+
+.cakein {
+    position: relative;
+    top: 2vw;
+    /* padding-bottom: 5px; */
+    font-size: 2.5vw;
+    color: black;
+    width: 44vw;
+}
+
+.empty {
+    position: absolute;
+    border: 1px solid;
+    padding: 30vh 20vh 30vh 20vh;
+    height: 42vw;
+    width: 28vw;
+    /* width: auto; */
+    top: 1vh;
+    right: 1vh;
+    /* align-self: end; */
+    margin-left: 0px;
+    border-radius: 250px 250px 250px 240px;
+    background-image: url(./images/slashio-photography-XxWxPGXwDU0-unsplash.jpg);
+    background-size: cover;
+    margin-left: 10vw;
+    color: black;
+}
+
+/* section last page  */
+
+.last {
+    border: 0px solid rgb(181, 178, 178);
+    background-color: rgb(232, 230, 230);
+    position: relative;
+    text-align: center;
+    margin-top: 10vh;
+    height: 37vw;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    top: 4vw;
+
+}
+
+.lstpge {
+    font-size: 9vw;
+    /* font-weight: 39px; */
+    color: black;
+
+}
+
+.pic {
+    margin-left: 20px;
+    border: 0px solid;
+    padding: 20px;
+    padding: 9vh 3vh 9vh 3vh;
+    background-color: rgb(234, 30, 30);
+    color: black;
+}
+
+.swiper {
+    width: 60%;
+    height: 20vh;
+    display: flex;
+    color: black;
+    /* background-color: #fff; */
+
+}
+
+.footer {
+    top: 1vw;
+    margin-top: 10vh;
+    height: 60vh;
+    width: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+
+.dis {
+    font-size: 6vh;
+
+}
+
+.disc {
+    font-size: 6vh;
+}
+
+.reg {
+    border: 0px solid white;
+    background-color: white;
+    /* padding: 12px; */
+    padding: 10px 18px 10px 18px;
+    padding-right: 18px;
+    position: relative;
+    top: 40px;
+}
+
+.reg a {
+    color: black;
+}
+
+.get {
+    padding: 10vh;
+    width: 100vw;
+    margin-top: 10vh;
+    height: 80%;
+    background-color: black;
+    color: #fff;
+}
+
+.panel {
+    height: 40%;
+    width: 100vw;
+    background-color: #ff3d33;
+}
+
+.panel {
+    position: relative;
+    padding-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.six {
+    position: relative;
+    right: 5vw;
+    font-weight: bold;
+}
+
+.five {
+    position: relative;
+    right: 3vw;
+}
+
+.f {
+    position: relative;
+    left: 3vw;
+}
+
+.second {
+    text-align: left;
+    margin: 0px;
+
+}
+
+.f {
+    color: #fffefe;
+}
+
+.home {
+    padding-bottom: 5px;
+    padding-left: 0px;
+
+}
+
+.hom {
+    font-size: 16.2px;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.home a:hover {
+    color: #060201;
+}
