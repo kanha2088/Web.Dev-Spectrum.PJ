@@ -5,15 +5,13 @@
     box-sizing: border-box;
     color: white;
 }
-
-a {
-    text-decoration: none;
-    font-weight: bold;
+body
+{
+    background-color: antiquewhite;
 }
 
-li {
-    list-style: none;
-}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^skp^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 header {
     background-image: url('./images/sdf.jpg');
@@ -26,52 +24,64 @@ header {
     height: 61vw;
 }
 
-.navbar {
-    margin-right: 0px;
-    position: relative;
-    top: 5vh;
-    font-size: 3vw;
 
-
-    /* overflow: hidden;*/
-}
-
-.menu {
-    display: flex;
-    gap: 3em;
-    justify-content: center;
-
-}
-
-li :hover {
-
-    transition: 0.5s linear;
-    padding-bottom: 0px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-top: 0px;
-    transition: 0.3s linear;
-    color: aliceblue, transparent;
-
-}
-
-.cake {
+.cake 
+{
     position: absolute;
     padding-left: 2vw;
     top: 3vw;
     left: 2vw;
-    font-size: 3vw;
+    font-size: 4vw;
     color: aliceblue;
 }
 
-#in {
-    color: rgb(248, 85, 125);
+#in 
+{
+    color: rgb(240, 101, 101);
 }
 
 
+a 
+{
+    text-decoration: none;
+    padding: 0.5vw;   
+    
+    color: #8b8888; 
+}
+
+li {
+    list-style: none;
+    border-bottom-width: 0.1vw;
+}  
+
+
+.navbar 
+{
+    position: relative;
+    top: 5vw;
+    font-size: 2vw;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+
+}
+
+li.active, li:hover {
+
+    border-bottom-width: 0.1vw;
+    color: rgb(82, 82, 82);
+    border-bottom-style: solid;
+    transition: 0.3s ease-in-out;
+    
+   
+}
+
 .sweet {
     position: absolute;
-    top: 14vw;
+    top: 12vw;
     left: 7vw;
 
 }
@@ -81,25 +91,25 @@ li :hover {
 }
 
 .pe {
-    font-size: 2vw;
-    color: rgb(248, 177, 207);
+    font-size: 3vw;
+    color: rgb(252, 252, 252);
 
 }
 
 .p {
-    font-size: 2vw;
-    color: rgb(248, 177, 207);
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
 }
 
 .contact {
 
     font-size: 2vw;
+    color: #fff;
     position: absolute;
     right: 1vh;
     top: 1vw;
-    border-radius: 5px;
-    border: 1vw solid rgb(245, 41, 119);
-    background-color: rgb(245, 41, 119);
+    border: 0.5vw solid rgb(240, 101, 101);
+    background-color: rgb(240, 101, 101);
     margin: 0px;
 }
 
@@ -107,7 +117,6 @@ li :hover {
     display: flex;
     align-content: center;
     justify-content: center;
-
     height: 25vw;
 }
 
@@ -133,10 +142,40 @@ li :hover {
 
 
 
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv---skp---vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+
+
+
+
+
+
+
+
+
+
 .middle {
+    position: relative;
     width: 100vw;
-    height: 100vh;
     text-align: center;
+
+}
+
+.discover {
+    position: relative;
+    font-size: 2.3vw;
+    color: rgba(0, 0, 0, 0.61);
+    margin: 2vw 0 1vw;
+    /* top: 3vw; */
+    
+}
+
+.taste {
+    position: relative;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 2vw;
+    /* top: 4vw; */
 
 }
 
@@ -146,58 +185,147 @@ li :hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-evenly;
-    position: relative;
-    top: 4vw;
-    height: 35vw;
+    /* position: relative; */
+    /* top: 41vw;
+    height: 35vw; */
 }
 
-.discover {
-
-    font-size: 4.3vw;
-    color: black;
-    top: 3vw;
-    position: relative;
-}
-
-.taste {
-    position: relative;
-    font-size: 4vw;
-    color: black;
-    top: 4vw;
-
-}
+/* --------------------rasp---------------- */
 
 .rasp {
     border: 1px solid;
-    padding: 15vh 3vh 15vh 3vh;
+    padding: 17vh 2vw 17vh 2vw;
     border-radius: 250px 250px 250px 250px;
-    color: black;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #060201;
+    background-color: #fff;
+}
+.rasp2
+{
+    color: #060201;
 }
 
-.red {
-    border: 1px solid;
-    padding: 15vh 3vh 15vh 3vh;
-    color: black;
-    border-radius: 250px 250px 250px 250px;
-}
+.rasp:hover
+.rasp2
 
-.choc {
-    border: 1px solid;
-    padding: 15vh 3vh 15vh 3vh;
-    border-radius: 250px 250px 250px 250px;
-    color: black;
+{
+    color: rgba(255, 255, 255, 0);
 }
-
-.bery {
+.rasp:hover
+{
+    transition: 0.3s ease-in;
+    padding: 7vh 2vw 27vh 2vw;;
     border: 1px solid;
-    padding: 15vh 3vh 15vh 3vh;
-    border-radius: 250px 250px 250px 250px;
     background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    color: black;
+    background-position: center; 
+    border-color: #060201;
+    color: #fff;
 }
+/* -------------------------red----------------------- */
+
+.red {
+    border: 1px solid;
+    padding: 17vh 2vw 17vh 2vw;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #060201;
+    border-radius: 250px 250px 250px 250px;
+    background-color: #fff;
+}
+
+
+.red2
+{
+    color: #060201;
+}
+
+.red:hover
+.red2
+
+{
+    color: rgba(255, 255, 255, 0);
+}
+.red:hover
+{
+    transition: 0.3s ease-in;
+    padding: 7vh 2vw 27vh 2vw;;
+    border: 1px solid;
+    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-color: #060201;
+    color: #fff;
+}
+
+/* -----------------------------choc----------------------- */
+
+.choc {
+    border: 1px solid;
+    padding: 17vh 2vw 17vh 2vw;
+    border-radius: 250px 250px 250px 250px;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #060201;
+    background-color: #fff;
+}
+.choc2
+{
+    color: #060201;
+}
+
+.choc:hover
+.choc2
+
+{
+    color: rgba(255, 255, 255, 0);
+}
+.choc:hover
+{
+    transition: 0.3s ease-in;
+    padding: 7vh 2vw 27vh 2vw;
+    border: 1px solid;
+    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-color: #060201;
+    color: #fff;
+}
+/* --------------------bery------------------------------ */
+.bery {
+    border: 1px solid;
+    padding: 17vh 2vw 17vh 2vw;
+    border-radius: 250px 250px 250px 250px;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #060201;
+    background-color: #fff;
+}
+.bery2
+{
+    color: #060201;
+}
+
+.bery:hover
+.bery2
+
+{
+    color: rgba(255, 255, 255, 0);
+}
+.bery:hover
+{
+    transition: 0.3s ease-in;
+    padding: 7vh 2vw 27vh 2vw;
+    border: 1px solid;
+    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-color: #060201;
+    color: #fff;
+}
+/* --------------------------------------------------------- */
+
 
 .recomdation {
     width: 80vw;
