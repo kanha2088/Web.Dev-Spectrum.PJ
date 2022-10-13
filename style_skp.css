@@ -44,8 +44,7 @@ a
 {
     text-decoration: none;
     padding: 0.5vw;   
-    
-    color: #8b8888; 
+    color: #cecccc; 
 }
 
 li {
@@ -58,6 +57,7 @@ li {
 {
     position: relative;
     top: 5vw;
+    padding: 0.1vw;
     font-size: 2vw;
 }
 
@@ -68,10 +68,9 @@ li {
 
 }
 
-li.active, li:hover {
-
-    border-bottom-width: 0.1vw;
-    color: rgb(82, 82, 82);
+.navbar li:hover {
+    color: #ffffff;
+    /* padding: 0.1vw; */
     border-bottom-style: solid;
     transition: 0.3s ease-in-out;
     
@@ -223,94 +222,7 @@ li.active, li:hover {
     border-color: #060201;
     color: #fff;
 }
-/* -------------------------red----------------------- */
-/* 
-.red {
-    
-    transition: 0.3s ease-out;
-    border: 1px solid;
-    width: 13vw;
-    padding: 8vw 2vw 8vw 2vw;
-    border-color: rgba(0, 0, 0, 0.2);
-    color: #060201;
-    border-radius: 250px 250px 250px 250px;
-    background-color: #fff;
-}
 
 
-.red2
-{
-    color: #060201;
-}
-.red:hover
+/* ------------------------------------------------------------------- */
 
-{
-    transition: 0.3s ease-in;
-    padding: 4vw 2vw 12vw 2vw;
-    border: 1px solid;
-    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border-color: #060201;
-    color: #fff;
-}
-
-
-.choc {
-    
-    transition: 0.3s ease-out;
-    border: 1px solid;
-    width: 13vw;
-    padding: 8vw 2vw 8vw 2vw;
-    border-radius: 250px 250px 250px 250px;
-    border-color: rgba(0, 0, 0, 0.2);
-    color: #060201;
-    background-color: #fff;
-}
-.choc2
-{
-    color: #060201;
-}
-
-.choc:hover
-{
-    transition: 0.3s ease-in;
-    padding: 4vw 2vw 12vw 2vw;
-    border: 1px solid;
-    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border-color: #060201;
-    color: #fff;
-}
-.bery {
-    
-    transition: 0.3s ease-out;
-    border: 1px solid;
-    
-    width: 13vw;
-    padding: 8vw 2vw 8vw 2vw;
-    border-radius: 250px 250px 250px 250px;
-    border-color: rgba(0, 0, 0, 0.2);
-    color: #060201;
-    background-color: rgba(255, 255, 255, 0.966);
-}
-.bery2
-{
-    color: #060201;
-}
-
-.bery:hover
-{
-    transition: 0.3s ease-in;
-    padding: 4vw 2vw 12vw 2vw;
-    border: 1px solid;
-    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border-color: #060201;
-    color: #fff;
-} */
