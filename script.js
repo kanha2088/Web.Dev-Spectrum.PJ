@@ -16,7 +16,8 @@ function plusSlides(n) {
     let slides = document.getElementsByClassName("mini");
     if(n<0 && slideIndex==1)
     {
-        showSlides(slides.length);
+        slideIndex=slides.length
+        showSlides(slideIndex);
     }
     else if(n>0 && slideIndex==slides.length)
     {
@@ -36,7 +37,11 @@ function showSlides(n) {
     for (i = 1; i <= slides.length; i++) 
      {
         if(i==n)
+        {
        slides[i-1].style.display = "flex";
+    //    console.log(i,slideIndex)
+        }
+
 
        else
        slides[i-1].style.display = "none";  
