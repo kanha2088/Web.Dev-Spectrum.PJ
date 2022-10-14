@@ -1,0 +1,143 @@
+* {
+    font-family:  serif,'Red Hat Display';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+header {
+    background-image: url('./images/sdf.jpg');
+    font-family: serif;
+    background-position: right top;
+    background-size: 80vw 44vw;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 54vw;
+}
+
+
+.cake 
+{
+    position: absolute;
+    padding-left: 2vw;
+    top: 3vw;
+    left: 2vw;
+    font-size: 3vw;
+    /* font-weight: bold; */
+    color: aliceblue;
+    
+}
+
+#in 
+{
+    color: rgb(240, 101, 101);
+}
+
+
+.navbar a 
+{
+    text-decoration: none;
+    padding: 0.5vw;   
+    color: #cecccc; 
+}
+
+li {
+    list-style: none;
+    border-bottom-width: 0.1vw;
+}  
+
+
+.navbar 
+{
+    position: relative;
+    top: 5vw;
+    padding: 0.1vw;
+    font-size: 2vw;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+
+}
+
+.navbar li:hover {
+    color: #ffffff;
+    /* padding: 0.1vw; */
+    border-bottom-style: solid;
+    transition: 0.3s ease-in-out;
+    
+   
+}
+
+.sweet {
+    position: absolute;
+    top: 12vw;
+    left: 7vw;
+
+}
+
+.sweet h1 {
+    font-size: 5vw;
+    font-weight: 10;
+}
+
+.pe {
+    font-size: 2vw;
+    color: rgb(252, 252, 252, 0.705);
+    font-family: 'Red Hat Display';
+
+}
+
+.p {
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: 'Red Hat Display';
+}
+
+.contact {
+
+    font-size: 2vw;
+    color: #fff;
+    position: absolute;
+    right: 2vw;
+    top: 3.5vw;
+    border: 0.5vw solid rgb(240, 101, 101);
+    background-color: rgb(240, 101, 101);
+    margin: 0px;
+}
+
+.pl {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 25vw;
+}
+
+.g {
+    position: absolute;
+    top: 31vw;
+    left: -1vw;
+}
+
+.app {
+    position: absolute;
+    top: 32vw;
+    left: 18vw;
+}
+
+.app img {
+    width: 13vw;
+}
+
+.g img {
+    width: 17vw;
+}
+
+
+
