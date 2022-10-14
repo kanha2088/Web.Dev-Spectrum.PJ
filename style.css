@@ -15,23 +15,15 @@ body
 
 .about {
     position: relative;
-    top: cvw;
-    /* height: 100vh; */
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 9vw;
     color: black;
 }
 
 .abs {
-    /* display: flex; */
-    /* font-size: 2vw; */
     justify-content: flex-start;
 }
 
 .aboutus {
-    font-size: 7vw;
+    font-size: 1vw;
     color: black;
 }
 
@@ -39,7 +31,7 @@ body
     position: relative;
     top: 2vw;
     /* padding-bottom: 5px; */
-    font-size: 2.5vw;
+    font-size: 1vw;
     color: black;
     width: 44vw;
 }
@@ -62,46 +54,184 @@ body
     color: black;
 }
 
-/* section last page  */
+/* --------------------- testimonial ---------------------- */
 
-.last {
-    border: 0px solid rgb(181, 178, 178);
-    background-color: rgb(232, 230, 230);
+.last 
+{
+    background-color: rgba(182, 181, 181, 0.425);
     position: relative;
+    padding: 1vw;
+}
+
+.test
+{
     text-align: center;
-    margin-top: 10vh;
-    height: 37vw;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    font-size: 5vw;
     color: black;
-    top: 4vw;
-
+    margin-bottom: 1vw;
 }
 
-.lstpge {
-    font-size: 9vw;
-    /* font-weight: 39px; */
-    color: black;
 
-}
 
-.pic {
-    margin-left: 20px;
-    border: 0px solid;
-    padding: 20px;
-    padding: 9vh 3vh 9vh 3vh;
-    background-color: rgb(234, 30, 30);
-    color: black;
-}
 
-.swiper {
-    width: 60%;
-    height: 20vh;
+.review
+{
     display: flex;
-    color: black;
-    /* background-color: #fff; */
+    margin: 5vw 14vw;
+    padding: 2vw 4vw;
+    background-color: antiquewhite;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.21, 1.58, 0, 0.9);
+}
+
+@keyframes ceaseR
+{
+    0% 
+    {
+        opacity: 0;
+        position: relative;
+        margin-left: 5vw;
+        margin-right: 23vw;
+        justify-content: center;
+    } 
+    100% 
+    {
+        position: relative;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        opacity: 1;
+    }
+}
+
+@keyframes ceaseL
+{
+    0% 
+    {
+        opacity: 0;
+        position: relative;
+        
+        margin-left: 23vw;
+        margin-right: 5vw;
+        justify-content: center;
+    } 
+    100% 
+    {
+        position: relative;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        opacity: 1;
+    }
+}
+
+
+
+.rev2
+{
+    display: none;
+}
+.writer
+{
+    color: #060201;
+    font-size: 4vw;
+    padding: 0 0 0 1vw;
+/*     
+    animation-name: cease;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 1.21, 1, 1.03); */
 
 }
+
+.loc
+{
+    color: #060201;
+    font-size: 1.5vw;
+    padding: 0 0 0 1vw;
+/*     
+    animation-name: cease;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 1.21, 1, 1.03); */
+
+}
+
+.revstar
+{
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+    padding-left: 1vw;
+/*     
+    animation-name: cease;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 1.21, 1, 1.03); */
+
+}
+.cont
+{
+    color: #060201;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+/*     
+    animation-name: cease;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 1.21, 1, 1.03); */
+
+
+}
+
+
+
+.writpic
+{
+    padding: 13vw 8vw;
+    width: auto;
+    border-radius: 250px 250px 250px 250px;
+    background-image: url('./images/slashio-photography-XxWxPGXwDU0-unsplash.jpg');
+    background-size: cover;
+    /* margin-left: 10vw; */
+    color: black;
+/*     
+    animation-name: cease;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 1.21, 1, 1.03); */
+
+}
+
+
+.tprev, .tnext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgba(0, 0, 0, 0.39);
+    font-weight: bold;
+    font-size: 4vw;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+
+  .tprev
+  {
+    left: 8vw;
+  }
+
+  .tnext {
+    right: 8vw;
+  }
+
+  .tprev:hover, .tnext:hover {
+    background-color: rgba(83, 83, 83, 0.438);
+  }
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
 
 .footer {
     top: 1vw;
@@ -203,3 +333,4 @@ body
 .home a:hover {
     color: #060201;
 }
+
