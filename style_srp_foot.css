@@ -1,0 +1,125 @@
+
+.footer {
+    top: 10vw;
+    
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+
+.dis {
+    font-size: 5vw;
+    font-weight: 100;
+
+}
+
+.disc {
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.reg {
+    border: 0px solid white;
+    background-color: white;
+    /* padding: 12px; */
+    padding: 1.2vw;
+    position: relative;
+    top: 5vw;
+    color: black;
+    font-size: 2vw;
+}
+
+.reg:hover
+ {
+    background-color: #ff3d33;
+}
+
+.get 
+{
+    padding: 8vw;
+    padding-bottom: 11vw;
+    background-image: url('./images/reg.jpg');
+    background-size: 100vw 57vw;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    color: #fff;
+}
+
+
+
+/* ------------------------------------------------------ */
+.panel {
+    position: relative;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+    background-color: #ff3d33;
+}
+
+.six {
+    position: relative;
+    right: 5vw;
+    font-weight: bold;
+}
+
+.five {
+    position: relative;
+    right: 3vw;
+}
+
+.f {
+    position: relative;
+    padding: 0vw 0vw 0vw 3vw;
+    color: #ffffff;
+    font-size: 2.5vw;
+}
+
+.second {
+    font-size: 4vw;
+
+}
+
+
+.home {
+    padding-bottom: 5px;
+    font-family: 'Red Hat Display';
+    font-size: 1.5vw;
+
+}
+
+
+
+.hom {
+    font-size: 1.5vw;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+
+}
+
+.home a:hover {
+    color: #060201;
+}
+.icon
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ico :hover
+{
+    size: 2vw;
+    color: #060201;
+}
+a {
+    text-decoration: none;
+    padding: 0.5vw;
+    color: #ffffff;
+    font-family: 'Red Hat Display';
+}
