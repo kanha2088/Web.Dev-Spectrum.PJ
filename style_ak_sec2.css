@@ -1,0 +1,134 @@
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv---2nd section---vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+
+.middle {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+
+}
+
+.discover {
+    position: relative;
+    font-size: 2.3vw;
+    color: rgba(24, 10, 10, 0.527);
+    margin: 2vw 0 1vw;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+    
+    
+}
+
+.taste {
+    position: relative;
+    font-size: 6vw;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 2vw;
+    /* top: 4vw; */
+
+}
+
+
+.sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    /* position: relative; */
+    /* top: 41vw;
+    height: 35vw; */
+}
+
+/* --------------------rasp---------------- */
+
+.rasp, .red, .bery, .choc
+ {
+    
+    transition: 0.3s ease-out;
+    border: 1.5px solid;
+    font-size: 1.6vw;
+    width: 18vw;
+    font-weight: bold;
+    padding: 8vw 2vw 8vw 2vw;
+    border-radius: 250px 250px 250px 250px;
+    border-color: rgba(0, 0, 0, 0.26);
+    color: #060201;
+    background-color: #fff;
+}
+.rasp2, .red2, .bery2, .choc2
+{
+    color: #060201;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+}
+
+.rasp:hover, .red:hover, .bery:hover, .choc:hover
+{
+    transition: 0.3s ease-in;
+    padding: 4vw 2vw 12vw 2vw;
+    border: 1px solid;
+    font-size: 1.4vw;
+    width: 18vw;
+    background-image: url('./images/pexels-dalila-dalprat-1889651.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-color: #060201;
+    color: #fff;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* ---------------------------about us-------------------------------------- */
+
+
+
+.about {
+    top: 20vw;
+    position: relative;
+    color: black;
+    margin-bottom: 15vw;
+}
+
+.aboutus {
+    font-size: 6vw;
+    font-weight: 100;
+    color: black;
+    margin-top: 8vw;
+}
+
+.cakein {
+    font-size: 1.9vw;
+
+    color: black;
+    margin-left: 11vw;
+}
+.qad
+{
+    margin-top: 3vw;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+    color: #060201;
+}
+
+
+.abs {
+    display: flex;
+    justify-content: end;
+}
+
+.empty {
+    position: relative;
+    border: 1px solid;
+    padding: 20vw 13vw;
+    margin: 2vw 10vw;
+    border-radius: 250px 250px 250px 240px;
+    background-image: url('./images/baker.webp');
+    background-position-x: center;
+    background-size: cover;
+    color: black;
+}
